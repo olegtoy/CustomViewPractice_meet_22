@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.practice.olegtojgildin.customviewpractice_meet_22.MainActivity">
+
+    <com.practice.olegtojgildin.customviewpractice_meet_22.RectangleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:color_figure="@color/colorFigure"
+        app:higth_figure="@dimen/HigthFigure"
+        app:width_figure="@dimen/WidthFigure"
+        android:id="@+id/rectangle_custom"/>
+
+</android.support.constraint.ConstraintLayout>

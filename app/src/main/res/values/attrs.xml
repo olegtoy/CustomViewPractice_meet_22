@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RectangleView">
+        <attr name="higth_figure" format="dimension"/>
+        <attr name="width_figure" format="dimension"/>
+        <attr name="color_figure" format="color"/>
+    </declare-styleable>
+</resources>
